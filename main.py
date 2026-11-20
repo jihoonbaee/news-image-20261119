@@ -10,7 +10,7 @@ fully deterministic: the same data always produces byte-identical output.
 Run:  MAKEFUN_OUTPUT_DIR=out python3 main.py
 Writes: $MAKEFUN_OUTPUT_DIR/entry.png
 
-Coverage: full-day edition, reported by 23:59 UTC 19 Nov 2026.
+Full-day edition, reported by 23:59 UTC 19 Nov 2026.
 Headlines render at scale 4 across ~850 px, about 34 characters per
 line, max 2 lines. Sub-texts render at scale 2, about 69 characters
 per line, max 2 lines.
@@ -57,16 +57,16 @@ STORIES = [
     {
         "kicker": "UKRAINE  |  WAR",
         "headline": "CRIMEAN BRIDGE ATTACKED AGAIN",
-        "sub": "Third strike on the crossing in four days; traffic halted and "
-               "Putin vows a harsher response.",
+        "sub": "Third strike on the crossing in four days; traffic halted "
+               "and Putin vows a harsher response.",
         "color": (20, 90, 160),       # blue
         "icon": "bridge",
     },
     {
         "kicker": "TECH  |  MARKETS",
         "headline": "ANTHROPIC'S $81.3BN IPO DEBUTS",
-        "sub": "Shares open at $111.50, close $97.17, up 17%; the largest IPO "
-               "by base deal size.",
+        "sub": "Shares open at $111.50, close $97.17, up 17%; the largest "
+               "IPO by base deal size.",
         "color": (30, 120, 70),       # green
         "icon": "chart",
     },
